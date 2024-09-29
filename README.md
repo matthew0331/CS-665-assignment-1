@@ -14,7 +14,11 @@ This project implements a **fully automated beverage vending machine** that can 
 
 ---
 # GitHub Repository Link:
+<<<<<<< HEAD
 ## https://github.com/matthew0331/cs-665-assignment-1
+=======
+https://github.com/matthew0331/cs-665-assignment-1
+>>>>>>> 72be3aaf29db30fce8fb2db17a6428d7a295aea2
 
 ## Implementation Description
 
@@ -162,4 +166,4 @@ mvn checkstyle:checkstyle
 ```
 
 The HTML page will be found at the following location:
-`target/site/checkstyle.html`
+`target/site/checkstyle.html``target/site/checkstyle.html`
