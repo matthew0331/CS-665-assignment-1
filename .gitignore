@@ -1,0 +1,8 @@
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/src/main/resources/**
+*.log
+*.properties
+*.class
