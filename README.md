@@ -14,7 +14,7 @@ This project implements a **fully automated beverage vending machine** that can 
 
 ---
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/matthew0331/cs-665-assignment-1
 
 ## Implementation Description
 
