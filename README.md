@@ -14,7 +14,7 @@ This project implements a **fully automated beverage vending machine** that can 
 
 ---
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+## https://github.com/matthew0331/cs-665-assignment-1
 
 ## Implementation Description
 
@@ -95,13 +95,13 @@ Maven provides a large number of plugins for various tasks, such as compiling co
 ## Compile
 Type on the command line:
 
-```bash
+```
 mvn clean compile
 ```
 
 **Run the Project:**
 After compiling, you can run the project by executing the `Main.java` class:
-   ```bash
+   ```
    mvn exec:java -Dexec.mainClass="edu.bu.met.cs665.beverage.Main"
    ```
 
@@ -117,7 +117,7 @@ The use of JUnit tests is an important part of Test-Driven Development (TDD), wh
 JUnit tests can be run as part of a continuous integration pipeline, where tests are automatically run every time changes are made to the code. This helps to catch any issues as soon as they are introduced, reducing the need for manual testing and making it easier to ensure that the code is always in a releasable state.
 
 To run, use the following command:
-```bash
+```
 mvn clean test
 ```
 ---
@@ -134,7 +134,7 @@ Using SpotBugs can help to improve the quality and reliability of your code by c
 
 Use the following command:
 
-```bash
+```
 mvn spotbugs:gui 
 ```
 
@@ -157,7 +157,7 @@ Checkstyle is highly configurable and can be customized to fit the needs of your
 
 The following command will generate a report in HTML format that you can open in a web browser.
 
-```bash
+```
 mvn checkstyle:checkstyle
 ```
 

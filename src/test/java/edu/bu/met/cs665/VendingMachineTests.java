@@ -36,7 +36,7 @@
         public void testLatteWithExcessCondiments() {
             Beverage latte = new Latte();
             double finalPrice = vendingMachine.calculateFinalPrice(latte, 4, 4); // Excess condiments, will be limited
-            assertEquals(5.25, finalPrice, 0);
+            assertEquals(6.00, finalPrice, 0);
         }
 
         @Test

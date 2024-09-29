@@ -22,7 +22,7 @@
         }
 
         public double calculateFinalPrice(Beverage beverage, int milkUnits, int sugarUnits) {
-            double totalCost = beverage.cost();
+            double totalCost = beverage.cost(); // Base price of the beverage
 
             if (milkUnits + sugarUnits > 6) {
                 System.out.println("The total number of condiments cannot exceed 6 units. The system will limit it.");
@@ -31,11 +31,14 @@
                 sugarUnits = Math.max(0, sugarUnits - excess);
             }
 
-            totalCost = addMilk(beverage, milkUnits);
-            totalCost = addSugar(beverage, sugarUnits);
+            // Instead of overwriting totalCost, add the result of adding milk and sugar
+            totalCost += (0.75 * milkUnits); // Add milk cost to total
+            totalCost += (0.25 * sugarUnits); // Add sugar cost to total
 
             System.out.println("Final price: $" + totalCost);
             return totalCost;
         }
+
+
     }
     
